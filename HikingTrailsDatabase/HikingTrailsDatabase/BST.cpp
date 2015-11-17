@@ -51,3 +51,15 @@ BST<Hash, datatype>::~BST()
 {
 
 }
+
+template <typename Hash, typename datatype>
+void BST<Hash, datatype>::sortSmallest(datatype field)
+{
+
+}
+
+template <typename Hash, typename datatype>
+void BST<Hash, datatype>::sortLargest(datatype field)
+{
+
+}

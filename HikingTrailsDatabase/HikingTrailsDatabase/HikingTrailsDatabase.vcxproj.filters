@@ -18,12 +18,12 @@
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\22C Project\22C Project\BST.cpp">
+    <ClCompile Include="BST.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\22C Project\22C Project\BST.h">
+    <ClInclude Include="BST.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

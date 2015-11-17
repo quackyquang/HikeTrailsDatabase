@@ -64,11 +64,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\22C Project\22C Project\BST.cpp" />
+    <ClCompile Include="BST.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\22C Project\22C Project\BST.h" />
+    <ClInclude Include="BST.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

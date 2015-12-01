@@ -1,0 +1,25 @@
+Name:Mori Ridge Trail:Park:Sweeney Ridge:Location:Pacifica:Distance:4:Difficulty:2.5:Poplularity:4.5
+Name:High Water Trail:Park:Mt. Tamalpais:Location:Fairfax:Distance:2:Difficulty:2:Poplularity:4
+Name:PG&E Trail:Park:Rancho San Antonio:Location:Los Altos:Distance:7.7:Difficulty:3:Poplularity:4.6
+Name:Alameda Creek Regional Trail:Park:Las Trampas Regional Wilderness:Location:San Ramon:Distance:12:Difficulty:4:Poplularity:3.5
+Name:Mission Peak Park:Mission Peak Regional Preserve:Location:Fremont:Distance:5.6:Difficulty:3.5:Poplularity:5
+Name:Dipsea Trail:Park:Mount Tamalpais:Location:Mill Valley:Distance:6.7:Difficulty:3.8:Poplularity:3.6
+Name:Harkins Ridge Loop:Park:Purisima Creek Redwoods Open Space Preserve:Location:San Mateo:Distance:7:Difficulty:3.8:Poplularity:4.2
+Name:Saratoga Gap Trail:Park:Castle Rock State Park:Location:Santa Cruz:Distance:5.5:Difficulty:3:Poplularity:4.5
+Name:Marco's Mine:Park:San Jose Perserve:Location:San Jose:Distance:9:Difficulty:4.5:Poplularity:4
+Name:Terra Linda Ridge:Park:Terra Linda/ Sleepy Hollow Divide:Location:San Rafael:Distance:4.4:Difficulty:2:Poplularity:3
+Name:Wild Ranch Trail:Park:Henry Cowell Redwoods State Park:Location:Santa Cruz:Distance:4.7:Difficulty:2:Poplularity:5
+Name:Bay Trail:Park:Santa Cruz Preserve:Location:Santa Cruz:Distance:13:Difficulty:4.5:Poplularity:3
+Name:The Pedro Trail:Park:San Pedro Mountain Open Space Preserve:Location:San Pedro:Distance:3.3:Difficulty:2:Poplularity:4
+Name:Oaks Trail:Park:Olompali State Historic Park:Location:Marin:Distance:3.3:Difficulty:2:Poplularity:4.5
+Name:Rainbow Road:Park:Telly Tubby Park Reserve:Location:Berkeley:Distance:2:Difficulty:1:Poplularity:4.5
+Name:Stevens Creek Trail:Park:Stevens Creek County Park:Location:Santa Clara:Distance:6.1:Difficulty:4:Poplularity:4
+Name:Wildcat Trail:Park:Wilder Ranch:Location:Santa Cruz:Distance:7.7:Difficulty:4:Poplularity:2
+Name:Garin Trail:Park:Dry Creek Regional Parks:Location:Alameda:Distance:6.1:Difficulty:4.2:Poplularity:3.5
+Name:Contra Costa Trail:Park:Morgan Territory Regional Preserve:Location:Contra Costra:Distance:4.7:Difficulty:3:Poplularity:3
+Name:Coal Mine Ridge:Park:Coal Mine Ridge:Location:San Mateo:Distance:3.5:Difficulty:1:Poplularity:4
+Name:Silver Trail:Park:Quicksilver Mines:Location:San Jose:Distance:5.6:Difficulty:3.5:Poplularity:4
+Name:Badlands Trail:Park:Marin County Park:Location:Marin:Distance:6.4:Difficulty:4:Poplularity:5
+Name:Slider Trail:Park:Redwoods State Parl:Location:Redwood City:Distance:3.8:Difficulty:2:Poplularity:4
+Name:Shwifty Life Trail:Park:Sandy Hills Memorial Park:Location:San Francisco:Distance:2.2:Difficulty:1:Poplularity:5
+Name:Light Trail:Park:Lilly Hill:Location:Oakland:Distance:2.2:Difficulty:2:Poplularity:2

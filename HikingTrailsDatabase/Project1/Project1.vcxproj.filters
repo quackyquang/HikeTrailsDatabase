@@ -18,5 +18,25 @@
     <ClInclude Include="..\HikingTrailsDatabase\BST.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Documents\Data Structures\HikingTrailsDatabase\HikingTrailsDatabase\InputOutput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Documents\Data Structures\HikingTrailsDatabase\HikingTrailsDatabase\Trails.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\Documents\Data Structures\HikingTrailsDatabase\HikingTrailsDatabase\InputOutput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Documents\Data Structures\HikingTrailsDatabase\HikingTrailsDatabase\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Documents\Data Structures\HikingTrailsDatabase\HikingTrailsDatabase\Trails.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\..\Documents\Data Structures\HikingTrailsDatabase\HikingTrailsDatabase\trails.txt" />
   </ItemGroup>
 </Project>

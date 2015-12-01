@@ -32,9 +32,6 @@
     <ClCompile Include="..\..\..\..\..\Documents\Data Structures\HikingTrailsDatabase\HikingTrailsDatabase\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Documents\Data Structures\HikingTrailsDatabase\HikingTrailsDatabase\Trails.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\..\..\..\..\Documents\Data Structures\HikingTrailsDatabase\HikingTrailsDatabase\trails.txt" />

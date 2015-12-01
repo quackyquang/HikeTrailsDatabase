@@ -20,13 +20,17 @@ public:
 
 	~BST();
 
-	void sortLargest();
+	void sortLargest(dataNode *currNode);
 
-	void sortSmallest();
+	void sortSmallest(dataNode *currNode);
 
 	int insert(dataNode *currNode);
 
 	void remove(dataNode *currNode);
+
+	bool isEmpty();
+
+	void printTree(dataNode *currNode);
 
 	void in_Order(datanode *currNode);
 
@@ -34,19 +38,17 @@ public:
 
 	//void breadth_Order(dataNode *currNode);
 
-	bool isEmpty();
-
 	void postTraversal();
 
-	//void breadthTraversal();
+	void inTraversal();
 
-	//friend ostream& operator<<(ostream &stream, const dataNode &obj);
+	//void breadthTraversal();
 };
 
 template <class dataNode, typename datatype>
 inline BST<dataNode, datatype>::BST()
 {
-	
+	field = 1;
 }
 
 template <class dataNode, typename datatype>
@@ -82,34 +84,34 @@ inline int BST<dataNode, datatype>::insert(dataNode *currNode)
 		//compare the pointer's data with the data being inserted
 		datatype temp1 = nodePtr->getField(field);
 		datatype temp2 = currNode->getField(field);
-		int cmp = currNode->compareData(nodePtr, currNode, field);
+		int cmp = compareData(nodePtr, currNode);
 
 		//if nodePtr is bigger
 		if (cmp > 0)
 		{
-			if (nodePtr->left == nullptr)
+			if (nodePtr->leftNodeNode == nullptr)
 			{
-				nodePtr->left = currNode;
-				currNode->parent = nodePtr;
+				nodePtr->leftNodeNode = currNode;
+				currNode->parentNode = nodePtr;
 				return 0;
 			}
 			else
 			{
-				nodePtr = nodePtr->left;
+				nodePtr = nodePtr->leftNodeNode;
 			}
 		}
 		//if nodePtr is smaller or equal
 		else
 		{
-			if (nodePtr->right == nullptr)
+			if (nodePtr->rightNode == nullptr)
 			{
-				nodePtr->right = currNode;
-				currNode->parent = nodePtr;
+				nodePtr->rightNode = currNode;
+				currNode->parentNode = nodePtr;
 				return 0;
 			}
 			else
 			{
-				nodePtr = nodePtr->right;
+				nodePtr = nodePtr->rightNode;
 			}
 		}
 
@@ -119,18 +121,26 @@ inline int BST<dataNode, datatype>::insert(dataNode *currNode)
 }
 
 
-
-
 template <class dataNode, typename datatype>
-inline void BST<dataNode, datatype>::sortSmallest()
+inline void BST<dataNode, datatype>::sortSmallest(dataNode *currNode)
 {
-
+	if (currNode != nullptr)
+	{
+		in_Order(currNode->leftNodeNode);
+		cout << currNode->returnData();
+		in_Order(currNode->rightNode);
+	}
 }
 
 template <class dataNode, typename datatype>
-inline void BST<dataNode, datatype>::sortLargest()
+inline void BST<dataNode, datatype>::sortLargest(dataNode *currNode)
 {
-
+	if (currNode != nullptr)
+	{
+		in_Order(currNode->rightNode);
+		cout << currNode->returnData();
+		in_Order(currNode->leftNodeNode);
+	}
 }
 
 template <class dataNode, typename datatype>
@@ -142,14 +152,25 @@ inline bool BST<dataNode, datatype>::isEmpty()
 		return false;
 }
 
+template <class dataNode, typename datatype>
+inline void BST<dataNode, datatype>::printTree(dataNode *currNode)
+{
+	if (currNode != nullptr)
+	{
+		cout << currNode->getField(field);
+		in_Order(currNode->leftNodeNode);
+		in_Order(currNode->rightNode);
+	}
+}
+
 template <class dataNode>
 inline void BST<dataNode, datatype>::in_Order(dataNode *currNode)
 {
 	if (currNode != nullptr)
 	{
-		in_Order(currNode->left);
+		in_Order(currNode->leftNodeNode);
 		cout << currNode->returnData();
-		in_Order(currNode->right);
+		in_Order(currNode->rightNode);
 	}
 }
 
@@ -158,8 +179,8 @@ inline void BST<dataNode, datatype>::post_Order(dataNode *currNode)
 {
 	if (currNode)
 	{
-		post_Order(currNode->left);
-		post_Order(currNode->right);
+		post_Order(currNode->leftNodeNode);
+		post_Order(currNode->rightNode);
 		cout << currNode->returnData();
 	}
 
@@ -179,13 +200,13 @@ inline void BST<dataNode, datatype>::breadth_Order(dataNode *currNode)
 		dataNode* v = q.front;
 		
 
-		// Enqueue the left children
-		if (v->left != NULL)
-			q.enqueue(v->left);
+		// Enqueue the leftNode children
+		if (v->leftNode != NULL)
+			q.enqueue(v->leftNode);
 
-		// Enqueue the right children
-		if (v->right != NULL)
-			q.enqueue(v->right);
+		// Enqueue the rightNode children
+		if (v->rightNode != NULL)
+			q.enqueue(v->rightNode);
 
 		q.dequeue();
 	}
@@ -202,8 +223,25 @@ inline void BST<dataNode, datatype>::breadthTraversal()
 
 template <class dataNode, typename datatype>
 inline void BST<dataNode, datatype>::postTraversal()
-{
-	
+{	
 	dataNode *temp = root;
 	post_Order(temp);
+	delete temp;
+}
+
+template <class dataNode, typename datatype>
+inline void BST<dataNode, datatype>::inTraversal()
+{
+	dataNode *temp = root;
+	in_Order(temp);
+	delete temp;
+}
+
+template <class dataNode, typename datatype>
+inline void BST::<dataNode, datatype>::compareData(dataNode node1, dataNode node2)
+{
+	if (node1->getField(field) > node2->getField(field))
+		return 1;
+	else
+		return -1;
 }

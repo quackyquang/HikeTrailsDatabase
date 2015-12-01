@@ -71,7 +71,6 @@
   <ItemGroup>
     <ClCompile Include="..\..\..\..\..\Documents\Data Structures\HikingTrailsDatabase\HikingTrailsDatabase\InputOutput.cpp" />
     <ClCompile Include="..\..\..\..\..\Documents\Data Structures\HikingTrailsDatabase\HikingTrailsDatabase\Main.cpp" />
-    <ClCompile Include="..\..\..\..\..\Documents\Data Structures\HikingTrailsDatabase\HikingTrailsDatabase\Trails.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\..\..\..\..\Documents\Data Structures\HikingTrailsDatabase\HikingTrailsDatabase\trails.txt" />

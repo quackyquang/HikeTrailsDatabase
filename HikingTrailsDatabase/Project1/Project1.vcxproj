@@ -67,6 +67,8 @@
     <ClInclude Include="..\..\..\..\..\Documents\Data Structures\HikingTrailsDatabase\HikingTrailsDatabase\InputOutput.h" />
     <ClInclude Include="..\..\..\..\..\Documents\Data Structures\HikingTrailsDatabase\HikingTrailsDatabase\Trails.h" />
     <ClInclude Include="..\HikingTrailsDatabase\BST.h" />
+    <ClInclude Include="HashTable.h" />
+    <ClInclude Include="HBSTNode.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\..\Documents\Data Structures\HikingTrailsDatabase\HikingTrailsDatabase\InputOutput.cpp" />

@@ -24,6 +24,12 @@
     <ClInclude Include="..\..\..\..\..\Documents\Data Structures\HikingTrailsDatabase\HikingTrailsDatabase\Trails.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="HashTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HBSTNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\..\Documents\Data Structures\HikingTrailsDatabase\HikingTrailsDatabase\InputOutput.cpp">
@@ -34,6 +40,8 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\..\..\..\..\Documents\Data Structures\HikingTrailsDatabase\HikingTrailsDatabase\trails.txt" />
+    <Text Include="..\..\..\..\..\Documents\Data Structures\HikingTrailsDatabase\HikingTrailsDatabase\trails.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>
